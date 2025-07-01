@@ -9,7 +9,7 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <React.Fragment>
-      <div className="flex w-[100vw] h-[100vh]">
+      <div className="flex w-[100vw] h-[100vh] overflow-hidden">
         <aside className="grow-1 max-w-[180px]">
           <Sidebar />
         </aside>
