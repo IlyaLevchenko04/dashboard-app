@@ -21,7 +21,7 @@ export const Sidebar = () => (
       <Link
         key={item.path}
         to={item.path}
-        className="h-fit hover:opacity-[0.5] transition-all [&.active]:opacity-[0.5]"
+        className="h-fit hover:opacity-[1.0] transition-all [&.active]:opacity-[1.0] opacity-[0.5]"
       >
         {item.text}
       </Link>
