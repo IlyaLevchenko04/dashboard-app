@@ -17,3 +17,10 @@ export interface OverviewDataEntity {
   trend: TrendEnum;
   icon: CardTypeEnum;
 }
+
+export interface User {
+  id: number;
+  name: string;
+  email: string;
+  role: string;
+}
